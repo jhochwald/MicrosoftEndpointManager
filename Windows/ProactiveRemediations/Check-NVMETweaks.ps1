@@ -1,4 +1,4 @@
-﻿# Check: Some relatively aggresiv NVME tweaks for Windows 11
+# Check: Some relatively aggressive NVME tweaks for Windows 11
 # Check-NVMETweaks.ps1
 
 try
