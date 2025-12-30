@@ -1,4 +1,4 @@
-﻿# Remediate: Some relatively aggresiv NVME tweaks for Windows 11
+# Remediate: Some relatively aggressive NVME tweaks for Windows 11
 # Remediate-NVMETweaks.ps1
 
 #region ServicesstornvmeParameters
