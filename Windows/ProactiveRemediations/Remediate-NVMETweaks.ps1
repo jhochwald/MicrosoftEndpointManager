@@ -112,8 +112,11 @@ $paramNewItemProperty = @{
    ErrorAction   = 'SilentlyContinue'
    WarningAction = 'SilentlyContinue'
 }
+# FeatureManagement override ID 735209102: NVMe-related Windows 11 feature flag (enables native NVMe driver behavior)
 $null = (New-ItemProperty @paramNewItemProperty -Name '735209102' -Value 1)
+# FeatureManagement override ID 1853569164: additional NVMe-related Windows 11 feature flag (see source link above)
 $null = (New-ItemProperty @paramNewItemProperty -Name '1853569164' -Value 1)
+# FeatureManagement override ID 156965516: supporting NVMe-related Windows 11 feature flag (used together with the above IDs)
 $null = (New-ItemProperty @paramNewItemProperty -Name '156965516' -Value 1)
 $paramNewItemProperty = $null
 #endregion MicrosoftFeatureManagementOverrides
